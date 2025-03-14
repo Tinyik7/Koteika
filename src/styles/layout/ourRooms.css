@@ -1,0 +1,81 @@
+.ourRooms__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: 5px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.ourRooms__card {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-items: start;
+    flex-direction: row;
+
+    background: white;
+
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ourRooms__title {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "LatoBold", sans-serif;
+    color: #333;
+}
+
+.ourRooms__text {
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    font-family: "LatoRegular", sans-serif;
+    font-size: 16px;
+
+    color: #1A212F;
+}
+
+.ourRooms__text:first-of-type {
+    font-size: 30px;
+}
+
+.ourRooms {
+    margin: auto 5%;
+}
+
+.ourRooms__content {
+    position: relative;
+}
+
+.ourRooms__button {
+    width: 250px;
+    
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    font-size: 18px;
+    font-family: "LatoRegular", sans-serif;
+
+    padding: 10px 20px;
+    padding-right: 52px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+
+    background-color: #FF7236;
+
+    color: white;
+}
+
+.ourRooms__button img {
+    position: absolute;
+    right: 2%;
+}

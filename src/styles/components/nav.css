@@ -1,0 +1,86 @@
+.navbar {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav__item {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+    /* Контейнеры и отступы */
+    body {
+        font-size: 14px;
+    }
+    
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    /* Навигация */
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Главный блок (постер) */
+    .poster {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .poster__title {
+        font-size: 24px;
+    }
+
+    .poster__button {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    /* Секция "Почему мы?" */
+    .why__item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .why__icon {
+        margin: 0 auto 10px;
+    }
+
+    /* Блок с номерами */
+    .apartment {
+        flex-direction: column;
+    }
+
+    .apartment__img {
+        width: 100%;
+        height: auto;
+    }
+
+    .apartment__info {
+        text-align: center;
+    }
+
+    /* Отзывы */
+    .review {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    /* Футер */
+    .footer {
+        text-align: center;
+    }
+
+    .footer__nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

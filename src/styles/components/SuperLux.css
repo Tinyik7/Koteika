@@ -1,0 +1,81 @@
+.super__lux {
+    width: 70%;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image {
+    width: 70px;
+    height: 112px; 
+}
+
+.image__big{
+    width: 500px;
+    height: 396px;
+}
+
+.super__lux__button img {
+    position: relative;
+    right: 2%;
+}
+
+.super__lux__text{
+    font-family: "LatoRegular", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+    width: 450px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+
+    gap: 15px;
+    margin: 20px;
+}
+
+.super__lux__button {
+    width: 200px;
+    
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    font-size: 18px;
+    font-family: "LatoRegular", sans-serif;
+
+    padding: 10px 20px;
+    padding-right: 52px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+
+    background-color: #FF7236;
+
+    color: white;
+}
+
+.super__lux__subtitle {
+    font-family: "LatoExtraBold";
+    font-weight: 500;
+    font-size: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    margin-top: 30px;
+}

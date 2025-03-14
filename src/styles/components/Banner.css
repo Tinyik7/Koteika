@@ -1,0 +1,58 @@
+.banner__content{
+    width: 70%;
+}
+
+.banner{
+    height: 70vh;
+    
+    background-image: url("../../assets/images/Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 30px
+}
+
+.banner__title{
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+    font-size: 84px;
+    font-weight: 700;
+    font-family: "LatoExtraBold";
+}
+
+.banner__subtitle{
+    font-size: 24px;
+
+    margin-bottom: 25px;
+}
+
+.banner__text{
+    font-size: 18px;
+}
+
+.banner__button{
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    font-size: 18px;
+    font-family: "LatoRegular", sans-serif;
+    
+    padding: 10px 20px;
+    padding-right: 52px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.banner__button img{
+    position: absolute;
+    right: 2%;
+}

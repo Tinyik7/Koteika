@@ -1,0 +1,23 @@
+body{
+    font-family: "LatoRegural";
+
+    background-image: url(../../assets/images/Main.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header, main, footer{
+    margin: 0 auto;
+}
+
+header, .container, footer{
+    width: 80%;
+}
+
+#root {
+    width: 100%;
+}
+
+a:hover {
+    color: red;
+}
