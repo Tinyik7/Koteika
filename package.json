@@ -2,7 +2,7 @@
   "name": "koteika-react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://tinyik7.github.io/Cat-Project/",
+  "homepage": "https://tinyik7.github.io/Koteika/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
