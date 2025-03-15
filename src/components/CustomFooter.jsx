@@ -14,7 +14,6 @@ function Footer () {
                         <Link className="nav__item" to="/reviews">Отзывы</Link>
                         <Link className="nav__item" to="/how-to-find-us">Как нас найти</Link>
                         <Link className="nav__item" to="/Catalog">Каталог</Link>
-                        <Link className="nav__item" to="/Rooms">Номера</Link>
                     </nav>
                 </div>
 
